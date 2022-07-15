@@ -39,7 +39,6 @@ class Deck:
                     points = 10
                 picture = PRINTED.get(suit)
                 c = Card(suit=suit, rank=rank, picture=picture, points=points)
-                # print(c)
                 cards.append(c)
         return cards
 
