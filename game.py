@@ -100,8 +100,9 @@ class Game:
     def start_game(self):
         while True:
             # start game
-            choice = input('Start game: (y/n) ')
+            choice = input('Start game (y/n): ')
             if choice == 'y' or choice == 'Y':
+
                 # check new game or continue
                 if len(self.gamers) == 0:
                     print('*** Start a new game ***')
